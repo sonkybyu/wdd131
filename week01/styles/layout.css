@@ -9,6 +9,15 @@ main {
     height: 400px;
     
 }
+
+main img {
+    width: 200px;
+    padding: var(--general-border);
+    height: auto;
+    border: var(--general-border) solid black;
+    box-shadow: 0 0 30px gray;
+    float: right;
+}
 .parent{
     display: grid;
     grid-template-columns:  1fr minmax(150px, 25%);
@@ -19,7 +28,7 @@ header{
     grid-column: 1/4;
     background-color: rgb(75, 73, 73);
     color: #eee;
-    height: 150px;
+    
 }
 .right-side{
     background-color: aliceblue;
@@ -30,7 +39,7 @@ footer{
     height: 150px;
     color: #eee;
     text-align: center;
-    font-weight: 100px;
+    padding: 2rem;
 }
 .navigation{
     list-style: none;
@@ -54,3 +63,5 @@ footer{
 	text-decoration: underline;
 	text-decoration-color: yellow;
 }
+
+

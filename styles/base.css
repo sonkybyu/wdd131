@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #1f3a5f;
+  --secondary: #f4f7fb;
+  --accent: #ffd166;
+  --text: #222;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text);
+  background: #ffffff;
+  line-height: 1.6;
+}
+
+header {
+  background: var(--primary);
+  color: white;
+}
+
+#course-title {
+  display: block;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1.5rem 1rem;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+main {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+main h1 {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--primary);
+}
+
+@media (min-width: 768px) {
+  main {
+    grid-template-columns: 1fr minmax(250px, 35%);
+  }
+}
+h3{
+  text-align: center;
+  padding: 0px;
+}
+.card {
+  background: var(--secondary);
+  border: 1px solid #d8e1ea;
+  border-radius: 10px;
+  /* overflow: hidden; */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+  background: var(--primary);
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.card2 ul{
+  padding: 2rem;
+  align-items: center;
+  /* text-align: center; */
+}
+.card1 img {
+    width: 100px;
+    padding: var(--general-border);
+    height: auto;
+    border: var(--general-border) solid black;
+    float: right;
+}
+.developer img{
+  float: left;
+}
+
+.card p {
+  padding: 1rem;
+}
+.navigation{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(46, 45, 45);
+}
+
+
+.navigation li {
+	flex: 1 1 auto; 
+}
+.navigation a {
+	font-weight: 700;
+	display: block;
+	color: #eee;
+	padding: 0.75rem;
+	text-decoration: none;
+	text-align: center;
+}
+.navigation a:hover {
+	text-decoration: underline;
+	text-decoration-color: yellow;
+}
+footer {
+  margin-top: 2rem;
+  background: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+#lastModified {
+  color: var(--accent);
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
