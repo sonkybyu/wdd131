@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) {
+
+    .hero {
+        position: relative;
+    }
+
+    .hero img {
+        height: 600px;
+        object-fit: cover;
+    }
+
+    .content-grid {
+        position: absolute;
+        top: 120px;
+        left: 0;
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .data-card {
+        width: 300px;
+        background-color: rgba(255,255,255,0.9);
+    }
+
+    .weather-card {
+        width: 300px;
+        margin-left: auto;
+        margin-top: 3rem;
+        background-color: rgba(255,255,255,0.9);
+    }
+
+    .weather-card h2::after {
+        content: ' ⛅';
+    }
+
+    .weather-icon {
+        display: none;
+    }
+}
