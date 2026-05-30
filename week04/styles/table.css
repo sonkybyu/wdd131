@@ -1,0 +1,35 @@
+:root{
+    border: 0px;
+    --prime:black;
+    --sec: gray;
+    --text: white;
+}
+table{
+    width: 400px ;
+    height: 200px;
+    border: thin solid var(--sec);
+    /* margin: 10px; */
+    border-collapse: collapse;
+    caption{
+        caption-side: bottom;
+    }
+}
+td{
+    border: thin solid rgb(244, 225, 225);
+    text-align: center;
+}
+thead, .highlight{
+background-color: var(--prime);
+color: var(--text);
+border: var(--prime);
+font-size: larger;
+    tr:nth-last-child(1){
+        background-color: #676363;
+        }
+    th{
+        padding: 10px;
+    }
+}
+tbody tr:nth-child(even){
+    background-color: lightgray;
+}
