@@ -44,12 +44,12 @@ nav ul a {
 }
 
 .hero{text-align:center;
-    padding:4rem 1rem;
+    /* padding:4rem 1rem; */
     background:#f4f4f4}
 .btn,button{
     background:var(--accent);
     border:none;
-    padding:.7rem 1rem;
+    padding:.2rem 1rem;
     cursor:pointer;
     display: inline-block;
     text-decoration: none;
