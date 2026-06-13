@@ -1,0 +1,83 @@
+
+:root{
+    --primary:#1e3a5f;
+    --accent:#d4a017;
+    --light: #f8f8f8;
+    --dark: #222;
+}
+    
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    line-height:1.6;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,footer{
+    background:var(--primary);
+    color:#fff;
+   }
+nav ul a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.navigation{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(46, 45, 45);
+}
+.navigation li {
+	flex: 1 1 auto; 
+}
+.grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.grid img {
+    width: 210px;
+}
+
+.hero{text-align:center;
+    padding:4rem 1rem;
+    background:#f4f4f4}
+.btn,button{
+    background:var(--accent);
+    border:none;
+    padding:.7rem 1rem;
+    cursor:pointer;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.products{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:1rem;
+    padding:1rem;
+}
+.card{
+    border:1px solid #ccc;
+    padding:1rem;
+    border-radius:8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+}
+form{display:grid;
+    gap:.8rem;
+    max-width:500px}
+
+input,textarea{
+    width:100%;
+    padding:.5rem}
+#title {
+  display: block;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+    }
