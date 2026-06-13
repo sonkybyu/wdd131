@@ -5,7 +5,7 @@ const shoes=[
 {id:3,name:'Executive Leather',category:'Formal',price:95000, src:'images/casual1.webp'},
 {id:4,name:'Fashion Glow',category:'Fashion',price:85000,src:'images/fashion.jpg'},
 {id:5,name:'Power Sprint',category:'Sports',price:88000,src:'images/sport.jpg'},
-{id:6,name:'City Comfort',category:'Casual',price:70000,src:'images/Runer.webp'}
+{id:6,name:'City Comfort',category:'Casual',price:70000,src:'images/runer.webp'}
 ];
 function displayProducts(items){
 const c=document.getElementById('productContainer'); 
